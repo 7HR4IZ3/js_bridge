@@ -17,7 +17,7 @@ py.print(str); // Dosen't return a value so no need to await
 # Bottle Js
 Bottle/ Flask app created using js_bridge and py_bridge
 
-```javascipt
+```javascript
 const { python } = require("js_bridge");
 const py = python();
 
