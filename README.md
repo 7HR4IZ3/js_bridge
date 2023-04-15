@@ -39,7 +39,7 @@ async function bottleTest() {
 }
 
 async function flaskTest() {
-    let Flask = await py.import("flask:Flask");
+    let Flask = await py.import("flask:Flask"); // same as { Flask } = await py.import('flask'); This dosen't work tho..
 
     let app = await Flask("JsApp");
 
