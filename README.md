@@ -1,5 +1,5 @@
-# js_bridge
-Javascript bridge for bridge io conatining Node Client, Server and Browser Client and Server
+# JS Bridge
+Javascript bridge for bridge io containing Node Client, Server and Browser Client and Server
 
 Note: Since javascript dosen't support blocking, await must be used when calling functions that return a value
 or when getting attributes
@@ -8,7 +8,7 @@ To pass keyword arguments add '$' to the end of the attribute or function name t
 
 You can also prefix functions with '$' to run that function in a thread.
 
-# Quick Demo
+# Demo
 ```javascript
 const { python } = require("js_bridge");
 const py = python();
