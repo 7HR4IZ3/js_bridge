@@ -16,7 +16,7 @@ const py = python();
 let str = await py.str;
 let word = await str("Hello World");
 py.print(str); // Dosen't return a value so no need to await
-```
+``` 
 
 # Bottle Js
 Bottle/ Flask app created using js_bridge and py_bridge
